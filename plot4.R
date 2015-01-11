@@ -72,7 +72,7 @@ pcfDate <- strptime(dateandtime, "%d/%m/%Y %H:%M:%S")
 
 #PLOT 4
 
-png("./figure/plot4.png",width=480,height=480,units="px")
+png("plot4.png",width=480,height=480,units="px")
 #2 rows and 2 columns for plotting
 par(mfrow=c(2,2))
 par(mar=c(4,4,2,2))

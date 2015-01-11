@@ -71,7 +71,7 @@ dateandtime <- paste(pcfDateStr,pcfTimeStr)
 pcfDate <- strptime(dateandtime, "%d/%m/%Y %H:%M:%S") 
 
 #PLOT 3
-png("./figure/plot3.png",width=480,height=480,units="px")
+png("plot3.png",width=480,height=480,units="px")
 plot(pcfDate,pcfsub_metering_1,
      main="",
      type="l",

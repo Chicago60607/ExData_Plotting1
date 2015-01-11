@@ -66,7 +66,7 @@ while ( length(oneLine <- readLines(con, n = 1, warn = FALSE)) > 0 ){
 close(con)
 
 #PLOT 1
-png("./figure/plot1.png",width=480,height=480,units="px")
+png("plot1.png",width=480,height=480,units="px")
 hist(pcfglobal_active_power,
      col='red',
      main="Global Active Power",

@@ -71,7 +71,7 @@ dateandtime <- paste(pcfDateStr,pcfTimeStr)
 pcfDate <- strptime(dateandtime, "%d/%m/%Y %H:%M:%S") 
 
 #PLOT 2
-png("./figure/plot2.png",width=480,height=480,units="px")
+png("plot2.png",width=480,height=480,units="px")
 plot(pcfDate,pcfglobal_active_power,
      main="",
      type="l",
