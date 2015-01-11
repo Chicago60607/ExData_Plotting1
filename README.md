@@ -1,3 +1,5 @@
+## ALL PLOT FILES ARE IN THE "figure" DIRECTORY
+
 ## Introduction
 
 This assignment uses data from
